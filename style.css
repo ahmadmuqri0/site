@@ -15,7 +15,7 @@
 
 body {
     font-family: "Outfit", sans-serif;
-    font-size: 15px;
+    font-size: 0.9375rem;
     background-color: var(--Light-gray);
     display: flex;
     flex-direction: column;
@@ -30,7 +30,7 @@ body {
     padding: .9rem;
     border-radius: 1rem;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, .05);
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .container img {
@@ -41,20 +41,20 @@ body {
 
 .container h1 {
     color: var(--Dark-blue);
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     text-align: center;
     margin-bottom: 1rem;
 }
 
 .container p {
     color: var(--Grayish-blue);
-    font-size: 0.9375rem;
     text-align: center;
-    margin: 1rem;
+    margin: .9rem;
 }
 
 .attribution { 
-    font-size: 14px; text-align: center; 
+    font-size: 14px; 
+    text-align: center; 
 }
 
 .attribution a { 
@@ -63,6 +63,6 @@ body {
 
 @media (min-width: 500px) {
     .container {
-        width: 300px;
+        max-width: 300px;
     }
 }
